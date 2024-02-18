@@ -1,22 +1,19 @@
 {
   "version": "0.0.0",
-  "name": "@kmamal/node-tree",
-  "description": "node-tree",
+  "name": "@kmamal/balanced-tree",
+  "description": "balanced-tree",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kmamal/node-tree.git"
+    "url": "git@github.com:kmamal/balanced-tree.git"
   },
   "license": "MIT",
   "main": "./src/index.js",
   "exports": "./src/index.js",
   "scripts": {
-    "test": "npx @kmamal/testing",
-    "update-exports": "node ./scripts/update-exports.mjs"
-  },
-  "dependencies": {
-    "@kmamal/util": "^0.1.15"
+    "test": "npx @kmamal/testing"
   },
   "devDependencies": {
-    "@kmamal/testing": "^0.0.29"
+    "@kmamal/testing": "^0.0.29",
+    "@kmamal/util": "^0.1.15"
   }
 }
